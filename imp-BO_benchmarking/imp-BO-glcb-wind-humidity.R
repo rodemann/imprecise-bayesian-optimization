@@ -34,7 +34,7 @@ for (i in 1:1) {
   results_one_design <- list()
   for (j in 1:n) {
     print(j)
-    
+    browser()
     ## same design for all approaches
     # unbiased (1) or biased (2) sample
     if(i == 1)
