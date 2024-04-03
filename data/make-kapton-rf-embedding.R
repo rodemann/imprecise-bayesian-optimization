@@ -19,7 +19,7 @@ pca_result_with_gas <- prcomp(kapton_data_numeric, center = TRUE, scale. = TRUE)
 summary(pca_result_with_gas)
 
 # Print the rotation (loadings) of the principal components
-print(pca_result_with_gas$rotation)
+#print(pca_result_with_gas$rotation)
 
 # Extracting the scores (principal component scores) for the first component
 scores_first_component <- pca_result_with_gas$x[,1]
